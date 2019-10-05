@@ -1,6 +1,6 @@
-# summernote-print-size
+# summernote-paper-size
 
-This Plugin adds a Print-Size button to the Summernote toolbar that lets you change the editing view size to reflect Paper Sizes in Portrait format.
+This Plugin adds a Paper-Size button to the Summernote toolbar that lets you change the editing view size to reflect Paper Sizes in Portrait format.
 
 ![summernote-paper-size](summernote-paper-size.png)
 
@@ -12,18 +12,19 @@ Include the following code after Summernote:
 
 ```html
 <script src="summernote-print-size.js"></script>
+<script src="lang/[language-COUNTRY].js"></script>
 ```
 
 #### 2. Supported languages
 
-Currently available in English!
+Supported languages can be found in the `lang` folder, and should be included after the plugin, then setting the chosen language when initialising Summernote.
 
 #### 3. Summernote options
 
 ```javascript
 $('.summernote').summernote({
     toolbar:[
-        ['printSize',['printSize']], // The Button
+        ['paperSize',['paperSize']], // The Button
         ['style',['style']],
         ['font',['bold','italic','underline','clear']],
         ['fontname',['fontname']],
@@ -35,6 +36,9 @@ $('.summernote').summernote({
         ['view',['fullscreen','codeview']],
         ['help',['help']]
     ],
+    save:{
+      lang: 'en-US' // Change to your chosen language
+    }
 });
 ```
 
