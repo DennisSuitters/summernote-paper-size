@@ -1,0 +1,16 @@
+.note-editor.note-frame.note-document{display:block;overflow:none}
+.note-editor.note-frame.note-document .note-editing-area{background-color:#fafafa;overflow:auto}
+.note-editor.note-frame .note-editing-area .note-editable{overflow:auto;border-radius:0;box-shadow:0;width:100%}
+.note-editor.note-frame.note-document .note-editing-area .note-editable{display:block;margin:40px auto 2px auto;overflow:hidden;overflow-y:auto;border:1px solid #d3d3d3;border-radius:5px;box-shadow:0 0 5px rgba(0,0,0,.1)}
+.note-editor.note-frame.note-document .note-editing-area.a0:before{content:"A0";font-size:32px;font-weight:700;color:#aaa;position:absolute;top:0;left:10px}
+.note-editor.note-frame.note-document .note-editing-area.a0:after{content:"2384 x 3370";font-size:14px;font-weight:700;color:#aaa;position:absolute;top:18px;left:55px}
+.note-editor.note-frame.note-document .note-editing-area.a1:before{content:"A1";font-size:32px;font-weight:700;color:#aaa;position:absolute;top:0;left:10px}
+.note-editor.note-frame.note-document .note-editing-area.a1:after{content:"1684 x 2384";font-size:14px;font-weight:700;color:#aaa;position:absolute;top:18px;left:55px}
+.note-editor.note-frame.note-document .note-editing-area.a2:before{content:"A2";font-size:32px;font-weight:700;color:#aaa;position:absolute;top:0;left:10px}
+.note-editor.note-frame.note-document .note-editing-area.a2:after{content:"1191 x 1684";font-size:14px;font-weight:700;color:#aaa;position:absolute;top:18px;left:55px}
+.note-editor.note-frame.note-document .note-editing-area.a3:before{content:"A3";font-size:32px;font-weight:700;color:#aaa;position:absolute;top:0;left:10px}
+.note-editor.note-frame.note-document .note-editing-area.a3:after{content:"842 x 1191";font-size:14px;font-weight:700;color:#aaa;position:absolute;top:18px;left:55px}
+.note-editor.note-frame.note-document .note-editing-area.a4:before{content:"A4";font-size:32px;font-weight:700;color:#aaa;position:absolute;top:0;left:10px}
+.note-editor.note-frame.note-document .note-editing-area.a4:after{content:"595 x 842";font-size:14px;font-weight:700;color:#aaa;position:absolute;font-weight:700;color:#aaa;position:absolute;top:18px;left:55px}
+.note-editor.note-frame.note-document .note-editing-area.a5:before{content:"A5";font-size:32px;font-weight:700;color:#aaa;position:absolute;top:0;left:10px}
+.note-editor.note-frame.note-document .note-editing-area.a5:after{content:"420 x 595";font-size:14px;font-weight:700;color:#aaa;position:absolute;top:18px;left:55px}
